@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<h2>账号安全</h2>
+		<h2>题库</h2>
 	</div>
 </template>
 

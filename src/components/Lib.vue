@@ -3,7 +3,7 @@
 		<div class="side-bar">
 			<router-link to="/question-library">题库</router-link>
 			<router-link to="/resource-library">资源库</router-link>
-			<router-link to="/action-library">活动库</router-link>
+			<router-link to="/active-library">活动库</router-link>
 		</div>
 		<div class="content"><router-view /></div>
 	</div>
@@ -29,7 +29,7 @@ export default {
 		
 	}
 	.side-bar {
-		flex: 1 1 20%;
+		flex: 1 1 80%;
 		display: flex;
 		flex-direction: column;
 		background-color: #fff;
